@@ -7,6 +7,6 @@ node_js:
   - 7
   - 6
 install:
-  - npm install && cd ..
+  - cd testcafe-colud-integration && npm install && cd ..
 script:
   - npm test
